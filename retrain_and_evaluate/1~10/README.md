@@ -1,4 +1,5 @@
-####210201 - 210221   
+#### 210201 - 210221   
+
 model training which i done is not well trained(Acc flucuated, loss increasing as epoch increase)   
 so, try to find well-suit parameter for training 1_packet_drop feature   
 Then find it.   
@@ -6,11 +7,13 @@ well-trained model in 1_packet_error_case:
 + pretrained model : train done in 2020, load VGG16(keras.application.VGG16) model weighted of Imagenet, optimizer : SGD(lr=0.1, decay=1e-6, momentum=0.9, nesterov=True), batch_size=256, epochs=84   
 + start with pretrained model, optimizer : Adam(lr=5e-5,decay=0.001, beta_1=0.9,beta_2=0.999,epsilon=None, amsgrad=Trus,epoch=15)    
 + Acc : 65.87%(compared with 65.89%,65.62%. Each corresponding with evaluating 0 packet loss of feature, 1 packet loss of that in pretrained model above   
-####210222 - 210302   
+---------------
+#### 210222 - 210302   
 First,   
 + try to verify whether	training $i_packet_drop model can recover corresponding packet_error_feature,   
 + it only applied to packet_drop 1 model(training again with 1_packet_drop feature)   
-####210304 -    
+---------------
+#### 210304 -    
 Then,   
 + it is concerned with after-pooling5 feature   
 + back_layer = fc1,fc2,fc3	  
@@ -29,6 +32,6 @@ Then,
 		28 th result == loss :2.37, Acc : 53.46% (loss min point)
 		95 th result == loss 2.992, ACC : 55.49% (Acc max point)
 		However, val_loss is 46.0698(28th epoch) -> 132.3214(95th epoch) : abnormal situation
-		210306 idea
-		# try to find optimal preprocessing condition, then train real model
-		# use no-scale feature, train VGG16(weigth='imagenet'), not pretrained by predecessor
+		# 210306 idea
+		-> try to find optimal preprocessing condition, then train real model
+		-> use no-scale feature, train VGG16(weigth='imagenet'), not pretrained by predecessor
