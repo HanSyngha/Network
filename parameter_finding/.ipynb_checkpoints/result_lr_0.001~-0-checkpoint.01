@@ -1,0 +1,31 @@
+lr :0.001 == 0 th model Acc : 64.53%, loss: 1.818
+lr :0.001 == 1 th model Acc : 65.71%, loss: 2.104
+lr :0.001 == 2 th model Acc : 65.88%, loss: 2.258
+lr :0.001 == 3 th model Acc : 65.89%, loss: 2.336
+lr :0.001 == 4 th model Acc : 65.9%, loss: 2.385
+lr :0.001 == 5 th model Acc : 65.91%, loss: 2.42
+lr :0.001 == 6 th model Acc : 65.89%, loss: 2.447
+lr :0.001 == 7 th model Acc : 65.89%, loss: 2.471
+lr :0.001 == 8 th model Acc : 65.93%, loss: 2.491
+lr :0.001 == 9 th model Acc : 65.92%, loss: 2.525
+
+lr :0.005 == 0 th model Acc : 36.35%, loss: 4.592
+lr :0.005 == 1 th model Acc : 25.84%, loss: 6.246
+lr :0.005 == 2 th model Acc : 0.414%, loss: 6.905
+lr :0.005 == 3 th model Acc : 0.138%, loss: 6.909
+lr :0.005 == 4 th model Acc : 0.124%, loss: 6.908
+lr :0.005 == 5 th model Acc : 0.142%, loss: 6.907
+lr :0.005 == 6 th model Acc : 0.112%, loss: 6.909
+lr :0.005 == 7 th model Acc : 0.124%, loss: 6.923
+lr :0.005 == 8 th model Acc : 0.106%, loss: 6.91
+lr :0.005 == 9 th model Acc : 0.104%, loss: 6.912
+
+lr :0.01 == 0 th model Acc : 0.1%, loss: 6.91
+lr :0.01 == 1 th model Acc : 0.1%, loss: 6.91
+lr :0.01 == 2 th model Acc : 0.1%, loss: 6.91
+lr :0.01 == 3 th model Acc : 0.1%, loss: 6.91
+lr :0.01 == 4 th model Acc : 0.1%, loss: 6.91
+lr :0.01 == 5 th model Acc : 0.1%, loss: 6.911
+lr :0.01 == 6 th model Acc : 0.1%, loss: 6.911
+lr :0.01 == 7 th model Acc : 0.1%, loss: 6.911
+lr :0.01 == 8 th model Acc : 0.1%, loss: 6.911
