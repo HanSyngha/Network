@@ -1,6 +1,6 @@
 This Repository is about my (Han Syngha) Graduation Paper Research. I tried to make a Network Packet Error Robust DNN structure with training the FC layers with error inserted data. I used tensorflow for research, and NVIDIA xavier bord and NVIDIA jetson TX2 bord for evaluation.
 
-https://sites.google.com/view/sal-skku/home/research
+https://sites.google.com/view/sal-skku/home/research<br>
 This research is a branch research of scalable architecture lab's distribute hardware system research, known as the cloud computing. I was the first researcher for the error robust AI architecture research (2020). 
 
 To use the included code, you will need tensorflow 2.3.0-gpu verson ( This match the cuda verson 10.2 )
